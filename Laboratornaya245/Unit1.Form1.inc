@@ -6,6 +6,7 @@ procedure InitializeComponent;
         self.radioButton2 := new System.Windows.Forms.RadioButton();
         self.radioButton3 := new System.Windows.Forms.RadioButton();
         self.groupBox1 := new System.Windows.Forms.GroupBox();
+        self.label6 := new System.Windows.Forms.Label();
         self.button12 := new System.Windows.Forms.Button();
         self.button11 := new System.Windows.Forms.Button();
         self.button10 := new System.Windows.Forms.Button();
@@ -26,7 +27,6 @@ procedure InitializeComponent;
         self.label5 := new System.Windows.Forms.Label();
         self.button13 := new System.Windows.Forms.Button();
         self.radioButton4 := new System.Windows.Forms.RadioButton();
-        self.label6 := new System.Windows.Forms.Label();
         self.groupBox1.SuspendLayout();
         self.SuspendLayout();
         // 
@@ -94,6 +94,13 @@ procedure InitializeComponent;
         self.groupBox1.TabIndex := 4;
         self.groupBox1.TabStop := false;
         self.groupBox1.Visible := false;
+        // 
+        // label6
+        // 
+        self.label6.Location := new System.Drawing.Point(114, 135);
+        self.label6.Name := 'label6';
+        self.label6.Size := new System.Drawing.Size(100, 23);
+        self.label6.TabIndex := 16;
         // 
         // button12
         // 
@@ -252,7 +259,7 @@ procedure InitializeComponent;
         self.label5.Font := new System.Drawing.Font('Microsoft Sans Serif', 10, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.label5.Location := new System.Drawing.Point(12, 254);
         self.label5.Name := 'label5';
-        self.label5.Size := new System.Drawing.Size(100, 19);
+        self.label5.Size := new System.Drawing.Size(133, 19);
         self.label5.TabIndex := 5;
         self.label5.Text := 'Чек';
         // 
@@ -269,7 +276,7 @@ procedure InitializeComponent;
         // radioButton4
         // 
         self.radioButton4.Checked := true;
-        self.radioButton4.Location := new System.Drawing.Point(317, 28);
+        self.radioButton4.Location := new System.Drawing.Point(288, 28);
         self.radioButton4.Name := 'radioButton4';
         self.radioButton4.Size := new System.Drawing.Size(16, 31);
         self.radioButton4.TabIndex := 7;
@@ -278,16 +285,9 @@ procedure InitializeComponent;
         self.radioButton4.Visible := false;
         self.radioButton4.CheckedChanged += radioButton4_CheckedChanged;
         // 
-        // label6
-        // 
-        self.label6.Location := new System.Drawing.Point(114, 135);
-        self.label6.Name := 'label6';
-        self.label6.Size := new System.Drawing.Size(100, 23);
-        self.label6.TabIndex := 16;
-        // 
         // Form1
         // 
-        self.ClientSize := new System.Drawing.Size(335, 294);
+        self.ClientSize := new System.Drawing.Size(305, 294);
         self.Controls.Add(self.radioButton4);
         self.Controls.Add(self.button13);
         self.Controls.Add(self.label5);
